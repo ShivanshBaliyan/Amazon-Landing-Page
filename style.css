@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 .nav-logo.border{
@@ -73,6 +73,10 @@
     border-radius: 4px;
 }
 
+.nav-search:hover{
+    border: 3px solid orange;
+}
+
 .search-select{
     background-color: #FFFFFF;
     color: #0f1111;
@@ -103,3 +107,80 @@
 }
 
 /* box 4 */
+/* nav laguage */
+.nav-language{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+}
+
+.nav-language.border{
+    width: 70px;
+    height: 50px;
+}
+
+.nav-laguage-arrow{
+    padding-left: 5px;
+    padding-bottom: 0%;
+}
+
+.nav-language-flag{
+    background-image: url(/Amazon-Landing-Page/images/Flag_of_the_United_States.png);
+    background-position: center;
+    background-size: cover;
+    height: 16px;
+    width: 20px;
+}
+
+/* Box 5 */
+/* nav-accounts */
+.nav-sign-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-sign-in.border{
+    height: 50px;
+    width: 150px;
+}
+
+span{
+    padding: 20px 0px 0px 5px;
+    font-size: 0.7rem;
+}
+
+.second-part{
+    display: flex;
+    padding: 5px 0px 0px 0px;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Box 6 */
+/* nav-orders */
+.nav-return.border{
+    padding: 5px 0px 0px 0px;
+    width: 78px;
+    height: 50px;
+}
+
+/* Box 7 */
+/* nav-cart */
+.nav-cart{
+    display: flex;
+    align-items: end;
+    padding: 0px 0px 5px 5px;
+}
+
+.nav-cart.border{
+    height: 50px;
+    width: 85px;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
