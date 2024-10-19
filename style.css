@@ -39,7 +39,8 @@
     padding: 5px 0px 0px 10px;
     align-items: center;
     height: 50px;
-    width: 90px;
+    width: 95px;
+    /* padding-right: 10px; */
 }
 
 .location-logo{
@@ -181,7 +182,7 @@ span{
 
 /* nav bar 2 */
 .navbar2{
-    background-color: #0f1111;
+    background-color: #232F3E;
     color: white;
     display: flex;
     align-items: center;
@@ -285,10 +286,22 @@ span{
     position: relative;
 }
 
-/* shop section - 1 */
+.long-box{
+    padding-top: 10px;
+    border: 2px solid white;
+    height: 300px;
+    background-color: white;
+    position: relative;
+}
+
 h2{
     padding: 10px 0px 10px 24px;
     width: 350px;
+}
+
+.long-text{
+    padding: 10px 0px 10px 24px;
+    width: 500px;
 }
 
 .see-more{
@@ -297,4 +310,24 @@ h2{
     bottom: 10px;
     left: 18px;
     color: #007185;
+}
+
+.series-of-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.border2{
+    border: 2px solid black; 
+    border-radius: 20%;
+}
+
+.backtotop{
+    background-color: #232F3E;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
 }
