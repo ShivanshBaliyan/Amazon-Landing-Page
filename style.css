@@ -137,9 +137,6 @@
 .nav-sign-in{
     display: flex;
     flex-direction: column;
-}
-
-.nav-sign-in.border{
     height: 50px;
     width: 150px;
 }
@@ -174,13 +171,130 @@ span{
     display: flex;
     align-items: end;
     padding: 0px 0px 5px 5px;
-}
-
-.nav-cart.border{
     height: 50px;
     width: 85px;
 }
 
 .nav-cart i{
     font-size: 30px;
+}
+
+/* nav bar 2 */
+.navbar2{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+/* nav2 All */
+.nav2All{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+/* nav2 today */
+.nav2-today{
+    height: 40px;
+    width: 105px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+/* nav2 customer */
+.nav2-customer{
+    height: 40px;
+    width: 135px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.nav2-registry{
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.nav2-gift{
+    height: 40px;
+    width: 85px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.nav2-sell{
+    height: 40px;
+    width: 45px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+
+/* Hero section */
+.hero-section{
+    background-image: url(/Amazon-Landing-Page/images/hero_img.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* hero msg */
+.hero-msg{
+    background-color: #f5f6f6;
+    height: 35px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop section */
+.bgshop-section{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(7, 20, 52);
+}
+
+.shop-section{
+    padding: 0px 0px 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+
+.box{
+    padding-top: 10px;
+    border: 2px solid white;
+    height: 400px;
+    width: 24%;
+    background-color: white;
+    position: relative;
+}
+
+/* shop section - 1 */
+h2{
+    padding: 10px 0px 10px 24px;
+    width: 350px;
+}
+
+.see-more{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 18px;
+    color: #007185;
 }
