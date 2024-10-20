@@ -323,11 +323,133 @@ h2{
 }
 
 .backtotop{
-    background-color: #232F3E;
+    background-color: #374658;
     color: white;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8rem;
+}
+
+/* section 2 */
+.section2{
+    background-color: #232F3E;
+    color: white;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px 0px;
+}
+
+.parts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.know{
+    padding: 0px 0px 7px 0px;
+}
+
+.content{
+    padding: 6px 0px 0px 0px;
+}
+
+.logo-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.footer-logo{
+    background-image: url(/Amazon-Landing-Page/images/amazon_logo.png);
+    width: 110px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-lang-series{
+    height: 35px;
+    width: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.space{
+    width: 100px;
+}
+
+.lang{
+    height: 35px;
+    width: 120px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dollar{
+    height: 35px;
+    width: 160px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.country{
+    height: 35px;
+    width: 150px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section3{
+    height: 380px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.one{
+    padding: 0px 80px 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.two{
+    padding: 0px 120px 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.three{
+    padding: 0px 330px 0px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.section4{
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
     font-size: 0.8rem;
 }
